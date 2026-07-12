@@ -40,7 +40,7 @@ The dataset was developed through the following steps:
 
 4. **Dataset construction**
 
-   The final dataset provides a comparable representation of photography festivals in Italy.
+   The final dataset provides a comparable representation of photography festivals.
 
 ## Dataset Structure
 
