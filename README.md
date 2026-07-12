@@ -48,9 +48,11 @@ The dataset includes information related to:
 
 | Category | Examples of variables |
 |---|---|
-| Festival identity | Name, year of foundation, location |
-| Organisation | Promoter, organisational structure |
-| Artistic dimension | Themes, exhibitions, curatorial approach |
-| Context and accessibility | Venue, territorial dimension, digital presence |
+| Festival identity | festival_id, festival_name |
+| Infos | city, region, country, festival_edition_Start_year, festival_status |
+| Digital presence | website_official, website_secondary, website_active, website_languages, instagram, facebook |
+| Organization | organizer_type, has_public_funding, has_international_orientation |
+| Artistic dimension | has_mixed_visual_arts, has_book_press, has_architecture, has_ performing_arts, has_audiovisual |
+| Context and accessibility | venue_type, ticket_policy, sustainability_claim, digital_presence_score |
 
 ## Repository Structure
