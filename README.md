@@ -55,4 +55,23 @@ The dataset includes information related to:
 | Artistic dimension | has_mixed_visual_arts, has_book_press, has_architecture, has_ performing_arts, has_audiovisual |
 | Context and accessibility | venue_type, ticket_policy, sustainability_claim, digital_presence_score |
 
-## Repository Structure
+## Data Sources
+
+The dataset is based on publicly available information collected from:
+
+- official festival websites;
+- institutional cultural platforms;
+- public reports and research publications.
+
+## Limitations
+
+The dataset reflects the availability and accessibility of online information. Missing data and inconsistencies between sources represent relevant challenges in the collection and standardisation of cultural data.
+
+## Author
+
+Anna Giacometti
+
+Master's thesis project  
+University of Palermo
+Digital Humanities 
+2026
