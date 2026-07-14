@@ -242,7 +242,8 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
       <td style="padding: 10px; border: 1px solid #dddddd;">Punteggio calcolato di presenza digitale</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">numero intero, 0-10</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">
-        Canale Web (Max 4pt):
+        
+Canale Web (Max 4pt):
 - Sito ufficiale presente: 2pt
 - Sito ufficiale anche ATTIVO (website_active = 1): +2pt (Totale 4pt)
 - Sito ufficiale NON attivo (website_active = 0): +0pt (Rimane a 2pt)
