@@ -14,6 +14,7 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
     </tr>
   </thead>
   <tbody>
+    <!-- IDENTITÀ -->
     <tr>
       <td rowspan="2" style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">IDENTITÀ</td>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">festival_id</td>
@@ -29,6 +30,7 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
       <td style="padding: 10px; border: 1px solid #dddddd;">Utilizzare il nome più ricorrente e ufficiale; evitare sottotitoli se inconsistenti tra le fonti.</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">-</td>
     </tr>
+    <!-- INFO -->
     <tr>
       <td rowspan="3" style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">INFO</td>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">city</td>
@@ -51,13 +53,14 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
       <td style="padding: 10px; border: 1px solid #dddddd;">Sempre "Italy"; colonna inserita per garantire scalabilità e confronti futuri a livello internazionale.</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">-</td>
     </tr>
+    <!-- TEMPORALITÀ -->
     <tr>
       <td rowspan="3" style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">TEMPORALITÀ</td>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">festival_edition_start_year</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Anno della prima edizione del festival</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">anno / unknown</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Estrarre l'anno di fondazione o della prima edizione dal sito ufficiale o da fonti storiche affidabili.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://issuu.com/yourope.org/docs/european_festival_report_2025" target="_blank">YOUROPE Festival Report 2025</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">YOUROPE & ILMC. (2026). <a href="https://issuu.com/yourope.org/docs/european_festival_report_2025" target="_blank"><i>European Festival Report 2025</i></a>. IQ Magazine.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">festival_status</td>
@@ -76,7 +79,7 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
       <td style="padding: 10px; border: 1px solid #dddddd;">Durata del festival in giorni (Stimata)</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">numero / unknown</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Si contano sia il giorno d'inizio che di fine (data fine - data inizio + 1). Se le mostre restano aperte un mese dopo il weekend di apertura, si conta l'intero periodo delle mostre. Riferito all'edizione più recente.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://issuu.com/yourope.org/docs/european_festival_report_2025" target="_blank">YOUROPE Festival Report 2025</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">YOUROPE & ILMC. (2026). <a href="https://issuu.com/yourope.org/docs/european_festival_report_2025" target="_blank"><i>European Festival Report 2025</i></a>. IQ Magazine.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">TEMPORALITÀ (cont.)</td>
@@ -91,27 +94,28 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
       </td>
       <td style="padding: 10px; border: 1px solid #dddddd;">-</td>
     </tr>
+    <!-- DIGITAL PRESENCE -->
     <tr>
       <td rowspan="5" style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">DIGITAL PRESENCE</td>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">website_official</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Sito web ufficiale del festival</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">URL / null</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Inserire solo l'indirizzo web ufficiale e specifico del festival.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2759/561008" target="_blank">Creative Europe Report (2023)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">website_secondary</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Sito secondario o istituzionale</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">URL / null</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Inserire l'URL di pagine ospitanti (es. pagina del comune o associazione) solo se non esiste un sito web indipendente.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2759/561008" target="_blank">Creative Europe Report (2023)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">website_active</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Sito ufficiale aggiornato</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">1 se il sito presenta informazioni su edizioni recenti (ultimi 2 anni); 0 se assente, offline o non aggiornato.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2759/561008" target="_blank">Creative Europe Report (2023)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">website_languages</td>
@@ -122,14 +126,14 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
         • <b>mono:</b> solo lingua italiana.<br>
         • <b>multi:</b> presenti altre lingue oltre a italiano e inglese.
       </td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2759/561008" target="_blank">Creative Europe Report (2023)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">instagram</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Profilo Instagram ufficiale</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">URL / null</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Inserire l'URL diretto del profilo Instagram ufficiale attivo del festival.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2759/561008" target="_blank">Creative Europe Report (2023)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">DIGITAL PRESENCE (cont.)</td>
@@ -137,12 +141,13 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
       <td style="padding: 10px; border: 1px solid #dddddd;">Pagina Facebook ufficiale</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">URL / null</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Inserire l'URL diretto della pagina Facebook ufficiale attiva del festival.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2759/561008" target="_blank">Creative Europe Report (2023)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
     </tr>
+    <!-- STRUTTURA ORGANIZZATIVA -->
     <tr>
       <td rowspan="3" style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">STRUTTURA ORGANIZZATIVA</td>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">organizer_type</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;">Tipologia dell'organizzazione promotrice</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Tipologia dell'organisation promotrice</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">public / private / non_profit / mixed / unknown</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">
         • <b>public:</b> ente della Pubblica Amministrazione.<br>
@@ -150,66 +155,69 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
         • <b>private:</b> entità societaria o commerciale.<br>
         • <b>mixed:</b> co-organizzazione strutturata paritaria.
       </td>
-      <td style="padding: 10px; border: 1px solid #dddddd;">Giorgi, L. (2010). Eurofestival Project.</td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">Giorgi, L. (Ed.). (2010). <a href="https://www.academia.edu/21774168/European_Arts_Festivals_Cultural_Pragmatics_and_Discursive_The_S%C3%B3nar_Festival" target="_blank"><i>European Arts Festivals: Cultural Pragmatics and Discursive Identity Frames</i></a>. European Commission.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_public_funding</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di finanziamenti pubblici</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1 / unknown</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">1 se vi è evidenza di contributi economici pubblici diretti (bandi, fondi FUS, sponsorizzazioni di enti locali); 0 se assenti. Usare "unknown" se compare solo un patrocinio gratuito senza certezza di fondi.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;">Giorgi, L. (2010). Eurofestival Project.</td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">Giorgi, L. (Ed.). (2010). <a href="https://www.academia.edu/21774168/European_Arts_Festivals_Cultural_Pragmatics_and_Discursive_The_S%C3%B3nar_Festival" target="_blank"><i>European Arts Festivals: Cultural Pragmatics and Discursive Identity Frames</i></a>. European Commission.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_international_orientation</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di partner o reti internazionali</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1 / unknown</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">1 se l'open call è esplicitamente bilingue e aperta a fotografi di ogni nazionalità, o se vi sono partner e scambi internazionali espliciti; 0 se la call e la comunicazione sono unicamente rivolte al territorio locale/nazionale.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;">Giorgi, L. (2010). Eurofestival Project.</td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">Giorgi, L. (Ed.). (2010). <a href="https://www.academia.edu/21774168/European_Arts_Festivals_Cultural_Pragmatics_and_Discursive_The_S%C3%B3nar_Festival" target="_blank"><i>European Arts Festivals: Cultural Pragmatics and Discursive Identity Frames</i></a>. European Commission.</td>
     </tr>
+    <!-- CONTENUTI CULTURALI -->
     <tr>
       <td rowspan="5" style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">CONTENUTI CULTURALI</td>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_mixed_visual_arts</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di altre arti visive</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">1 se il festival non espone solo fotografia, ma integra programmaticamente altre arti plastiche o visive (pittura, scultura, arte contemporanea, graphic design, illustrazione).</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">Bína, V. et al. (2012). <a href="https://policycommons.net/artifacts/2053334/essnet-culture-final-technical-report/2806425/" target="_blank"><i>ESSnet-Culture: European Statistical System Network on Culture. Final Report</i></a>. Eurostat.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_books_press</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di attività editoriali</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">1 se il festival ospita una sezione dedicata all'oggetto-libro, all'editoria fotografica o ai fanzine (bookshop specializzato, presentazioni di libri, premi dummy, ecc.).</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">Bína, V. et al. (2012). <a href="https://policycommons.net/artifacts/2053334/essnet-culture-final-technical-report/2806425/" target="_blank"><i>ESSnet-Culture: European Statistical System Network on Culture. Final Report</i></a>. Eurostat.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_architecture</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Contenuti legati all'architettura</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">1 se il festival affronta esplicitamente e programmaticamente il tema dell'architettura, dello spazio costruito, del design urbano o del paesaggio modificato.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">Bína, V. et al. (2012). <a href="https://policycommons.net/artifacts/2053334/essnet-culture-final-technical-report/2806425/" target="_blank"><i>ESSnet-Culture: European Statistical System Network on Culture. Final Report</i></a>. Eurostat.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_performing_arts</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di attività performative</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">1 se sono presenti performance dal vivo che coinvolgono la presenza fisica dell'artista (teatrali, danza, performance art, live music di accompagnamento).</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">Bína, V. et al. (2012). <a href="https://policycommons.net/artifacts/2053334/essnet-culture-final-technical-report/2806425/" target="_blank"><i>ESSnet-Culture: European Statistical System Network on Culture. Final Report</i></a>. Eurostat.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_audiovisual</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di contenuti audiovisivi</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">1 se il festival include installazioni multimediali, proiezioni video stabili, utilizzo di realtà aumentata (AR), realtà virtuale (VR) o contenuti video-artistici interattivi.</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">Bína, V. et al. (2012). <a href="https://policycommons.net/artifacts/2053334/essnet-culture-final-technical-report/2806425/" target="_blank"><i>ESSnet-Culture: European Statistical System Network on Culture. Final Report</i></a>. Eurostat.</td>
     </tr>
+    <!-- SPAZIO -->
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">SPAZIO</td>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">venue_type</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Tipologia principale degli spazi utilizzati</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">museum_gallery / cultural_space / historic_site / public_space / mixed / unknown</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Classificare in base alla funzione d'uso prevalente dello spazio espositivo (es. spazi urbani all'aperto = <i>public_space</i>; palazzi storici non musealizzati = <i>historic_site</i>).</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.1007/978-981-99-3236-8_1" target="_blank">Alberti et al. (2024) - Ontology Engineering</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">Alberti, V. et al. (2024). <a href="https://doi.org/10.1007/978-981-99-3236-8_1" target="_blank"><i>Ontology Engineering to Model the European Cultural Heritage: The Case of Cultural Gems</i></a>. Springer.</td>
     </tr>
+    <!-- POLICIES / CONTESTO -->
     <tr>
       <td rowspan="3" style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">POLICIES / CONTESTO</td>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">ticket_policy</td>
@@ -220,14 +228,14 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
         • <b>paid:</b> l'accesso al corpo centrale richiede l'acquisto di un pass/biglietto.<br>
         • <b>mixed:</b> combinazione significativa di mostre a pagamento e incontri gratuiti.
       </td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2766/4514147" target="_blank">Special Eurobarometer (2025)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">sustainability_claim</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Comunicazione esplicita d'impegno ecologico</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1 / unknown</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">1 se vi è una pagina/dichiarazione sul sito dedicata alle politiche ecologiche (plastic-free, compensazione CO2, mobilità sostenibile); 0 se assente. La codifica "0" indica solo l'assenza di comunicazione ufficiale, non che il festival adotti comportamenti negativi (evitare bias).</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://issuu.com/yourope.org/docs/european_festival_report_2025" target="_blank">YOUROPE Festival Report 2025</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">YOUROPE & ILMC. (2026). <a href="https://issuu.com/yourope.org/docs/european_festival_report_2025" target="_blank"><i>European Festival Report 2025</i></a>. IQ Magazine.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">digital_presence_score</td>
@@ -239,7 +247,7 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
         • <b>Social (Max 4pt):</b> Instagram presente = 2pt; Facebook presente = 2pt.<br>
         • <b>Lingue (Max 2pt):</b> Multilingue (multi) = 2pt; Bilingue (EN) = 1pt; Solo italiano (mono) = 0pt.
       </td>
-      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2766/4514147" target="_blank">Special Eurobarometer (2025)</a></td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
     </tr>
   </tbody>
 </table>
