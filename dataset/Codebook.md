@@ -228,7 +228,7 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
         • <b>paid:</b> l'accesso al corpo centrale richiede l'acquisto di un pass/biglietto.<br>
         • <b>mixed:</b> combinazione significativa di mostre a pagamento e incontri gratuiti.
       </td>
-      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2025). <a href="https://europa.eu/eurobarometer/surveys/detail/3364" target="_blank"><i>Europeans’ Attitudes towards Culture. Special Eurobarometer</i></a>. DG EAC.</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">sustainability_claim</td>
@@ -247,7 +247,7 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
         • <b>Social (Max 4pt):</b> Instagram presente = 2pt; Facebook presente = 2pt.<br>
         • <b>Lingue (Max 2pt):</b> Multilingue (multi) = 2pt; Bilingue (EN) = 1pt; Solo italiano (mono) = 0pt.
       </td>
-      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2023). <a href="https://doi.org/10.2759/561008" target="_blank"><i>Creative Europe 2021-2022: Monitoring report</i></a>. Publications Office of the EU.</td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2025). <a href="https://europa.eu/eurobarometer/surveys/detail/3364" target="_blank"><i>Europeans’ Attitudes towards Culture. Special Eurobarometer</i></a>. DG EAC.</td>
     </tr>
   </tbody>
 </table>
