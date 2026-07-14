@@ -242,10 +242,20 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
       <td style="padding: 10px; border: 1px solid #dddddd;">Punteggio calcolato di presenza digitale</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">numero intero, 0-10</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">
-        Indice complessivo (Max 10 punti):<br>
-        • <b>Canale Web (Max 4pt):</b> Sito ufficiale attivo = 4pt; Solo sito secondario = 2pt; Nessun sito = 0pt.<br>
-        • <b>Social (Max 4pt):</b> Instagram presente = 2pt; Facebook presente = 2pt.<br>
-        • <b>Lingue (Max 2pt):</b> Multilingue (multi) = 2pt; Bilingue (EN) = 1pt; Solo italiano (mono) = 0pt.
+        Canale Web (Max 4pt):
+- Sito ufficiale presente: 2pt
+- Sito ufficiale anche ATTIVO (website_active = 1): +2pt (Totale 4pt)
+- Sito ufficiale NON attivo (website_active = 0): +0pt (Rimane a 2pt)
+- Solo sito secondario (o nessun sito): 0pt
+
+Social (Max 4pt):
+- Instagram dedicato = 2pt
+- Facebook dedicato = 2pt
+
+Lingue (Max 2pt):
+- Multilingue = 2pt
+- Inglese (su sito attivo o secondario) = 1pt
+- Solo italiano = 0pt
       </td>
       <td style="padding: 10px; border: 1px solid #dddddd; font-size: 0.85em;">European Commission. (2025). <a href="https://europa.eu/eurobarometer/surveys/detail/3364" target="_blank"><i>Europeans’ Attitudes towards Culture. Special Eurobarometer</i></a>. DG EAC.</td>
     </tr>
