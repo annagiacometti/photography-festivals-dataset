@@ -156,4 +156,90 @@ Questo documento descrive dettagliatamente la struttura del dataset, definendo l
       <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_public_funding</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di finanziamenti pubblici</td>
       <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1 / unknown</td>
-      <td style="padding: 10px; border: 1px solid #dddddd;">1 se vi è evidenza di contributi economici pubblici diretti (band
+      <td style="padding: 10px; border: 1px solid #dddddd;">1 se vi è evidenza di contributi economici pubblici diretti (bandi, fondi FUS, sponsorizzazioni di enti locali); 0 se assenti. Usare "unknown" se compare solo un patrocinio gratuito senza certezza di fondi.</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Giorgi, L. (2010). Eurofestival Project.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_international_orientation</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di partner o reti internazionali</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1 / unknown</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">1 se l'open call è esplicitamente bilingue e aperta a fotografi di ogni nazionalità, o se vi sono partner e scambi internazionali espliciti; 0 se la call e la comunicazione sono unicamente rivolte al territorio locale/nazionale.</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Giorgi, L. (2010). Eurofestival Project.</td>
+    </tr>
+    <tr>
+      <td rowspan="5" style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">CONTENUTI CULTURALI</td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_mixed_visual_arts</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di altre arti visive</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">1 se il festival non espone solo fotografia, ma integra programmaticamente altre arti plastiche o visive (pittura, scultura, arte contemporanea, graphic design, illustrazione).</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_books_press</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di attività editoriali</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">1 se il festival ospita una sezione dedicata all'oggetto-libro, all'editoria fotografica o ai fanzine (bookshop specializzato, presentazioni di libri, premi dummy, ecc.).</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_architecture</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Contenuti legati all'architettura</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">1 se il festival affronta esplicitamente e programmaticamente il tema dell'architettura, dello spazio costruito, del design urbano o del paesaggio modificato.</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_performing_arts</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di attività performative</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">1 se sono presenti performance dal vivo che coinvolgono la presenza fisica dell'artista (teatrali, danza, performance art, live music di accompagnamento).</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">has_audiovisual</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Presenza di contenuti audiovisivi</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">1 se il festival include installazioni multimediali, proiezioni video stabili, utilizzo di realtà aumentata (AR), realtà virtuale (VR) o contenuti video-artistici interattivi.</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://coilink.org/20.500.12592/71g887" target="_blank">ESSnet-Culture Final Report (2012)</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">SPAZIO</td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">venue_type</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Tipologia principale degli spazi utilizzati</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">museum_gallery / cultural_space / historic_site / public_space / mixed / unknown</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Classificare in base alla funzione d'uso prevalente dello spazio espositivo (es. spazi urbani all'aperto = <i>public_space</i>; palazzi storici non musealizzati = <i>historic_site</i>).</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.1007/978-981-99-3236-8_1" target="_blank">Alberti et al. (2024) - Ontology Engineering</a></td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="padding: 10px; border: 1px solid #dddddd; font-weight: bold; vertical-align: top; background-color: #fafafa;">POLICIES / CONTESTO</td>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">ticket_policy</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Modalità di accesso al festival</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">free / paid / mixed / unknown</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">
+        • <b>free:</b> tutte le mostre e attività sono gratuite.<br>
+        • <b>paid:</b> l'accesso al corpo centrale richiede l'acquisto di un pass/biglietto.<br>
+        • <b>mixed:</b> combinazione significativa di mostre a pagamento e incontri gratuiti.
+      </td>
+      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2766/4514147" target="_blank">Special Eurobarometer (2025)</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">sustainability_claim</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Comunicazione esplicita d'impegno ecologico</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">0 / 1 / unknown</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">1 se vi è una pagina/dichiarazione sul sito dedicata alle politiche ecologiche (plastic-free, compensazione CO2, mobilità sostenibile); 0 se assente. La codifica "0" indica solo l'assenza di comunicazione ufficiale, non che il festival adotti comportamenti negativi (evitare bias).</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://issuu.com/yourope.org/docs/european_festival_report_2025" target="_blank">YOUROPE Festival Report 2025</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #dddddd; font-family: monospace;">digital_presence_score</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">Punteggio calcolato di presenza digitale</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">numero intero, 0-10</td>
+      <td style="padding: 10px; border: 1px solid #dddddd;">
+        Indice complessivo (Max 10 punti):<br>
+        • <b>Canale Web (Max 4pt):</b> Sito ufficiale attivo = 4pt; Solo sito secondario = 2pt; Nessun sito = 0pt.<br>
+        • <b>Social (Max 4pt):</b> Instagram presente = 2pt; Facebook presente = 2pt.<br>
+        • <b>Lingue (Max 2pt):</b> Multilingue (multi) = 2pt; Bilingue (EN) = 1pt; Solo italiano (mono) = 0pt.
+      </td>
+      <td style="padding: 10px; border: 1px solid #dddddd;"><a href="https://doi.org/10.2766/4514147" target="_blank">Special Eurobarometer (2025)</a></td>
+    </tr>
+  </tbody>
+</table>
