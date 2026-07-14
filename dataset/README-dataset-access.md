@@ -2,7 +2,7 @@
 
 ---
 
-### 🇮🇹 
+### IT
 
 Il dataset è attualmente in fase di popolamento, standardizzazione e validazione manuale. È possibile accedere ai dati in tempo reale attraverso le seguenti opzioni:
 
@@ -17,7 +17,7 @@ Il dataset è attualmente in fase di popolamento, standardizzazione e validazion
 
 ---
 
-### 🇬🇧 
+### EN 
 
 The dataset is currently being populated, standardized, and validated in real-time. You can access the data through the following options:
 
