@@ -1,4 +1,4 @@
-# 📖 Codebook - Schema dei Metadati / Metadata Schema
+# Codebook - Schema dei Metadati 
 
 Questo schema dei metadati definisce l'architettura dei dati utilizzata per la strutturazione del dataset. Le variabili e le classi qui descritte sono state modellate a partire dai principali regolamenti, linee guida e documentazioni ufficiali dell'Unione Europea nell'ambito del patrimonio, delle statistiche e delle politiche culturali (tra cui *Eurostat, ESSnet-Culture* e *Creative Europe*).
 
