@@ -358,5 +358,137 @@ Bína et al. (2012). ESSnet-Culture: European Statistical System Network on Cult
 </tr>
 
 </tbody>
+<tbody>
+
+<tr>
+<td rowspan="4">CONTEXT</td>
+
+<td>venue_type</td>
+<td>Tipologia principale degli spazi utilizzati dal festival</td>
+<td>
+museum_gallery / cultural_space / historic_site / public_space / mixed / unknown
+</td>
+<td>
+Classificare in base alla funzione dello spazio e non esclusivamente alla natura architettonica.<br><br>
+
+museum_gallery: musei, gallerie e spazi espositivi istituzionali.<br>
+cultural_space: centri culturali, fondazioni, spazi indipendenti.<br>
+historic_site: edifici storici, siti monumentali, palazzi storici.<br>
+public_space: piazze, strade, spazi urbani aperti.<br>
+mixed: utilizzo combinato di più tipologie.
+</td>
+<td>
+Alberti, V., Cocco, C., Consoli, S., Montalto, V., &amp; Panella, F. (2024). Ontology Engineering to Model the European Cultural Heritage: The Case of Cultural Gems.
+</td>
+</tr>
+
+
+<tr>
+<td>ticket_policy</td>
+<td>Modalità di accesso al festival</td>
+<td>
+free / paid / mixed / unknown
+</td>
+<td>
+free: tutte le attività sono ad accesso libero e gratuito.<br><br>
+
+paid: per accedere al corpo principale del festival (es. mostre principali) è necessario acquistare un biglietto o pass.<br><br>
+
+mixed: combinazione di contenuti gratuiti e a pagamento.
+</td>
+<td>
+European Commission (2025). Directorate-General for Education, Youth, Sport and Culture. Europeans’ Attitudes towards Culture. Special Eurobarometer.
+</td>
+</tr>
+
+
+<tr>
+<td>sustainability_claim</td>
+<td>Presenza di dichiarazioni esplicite di impegno verso la sostenibilità</td>
+<td>
+0 / 1
+</td>
+<td>
+1: presenza di una sezione dedicata alla sostenibilità sul sito, adesione a certificazioni, politiche ambientali o sociali dichiarate, iniziative plastic-free o equivalenti.<br><br>
+
+0: assenza di riferimenti alla sostenibilità nella comunicazione ufficiale.<br><br>
+
+Nota: il valore 0 non implica necessariamente una mancanza di pratiche sostenibili, ma solo assenza di comunicazione verificabile.
+</td>
+<td>
+YOUROPE – The European Festival Association &amp; ILMC (2026). European Festival Report 2025.
+</td>
+</tr>
+
+
+<tr>
+<td>notes</td>
+<td>Note qualitative e informazioni aggiuntive</td>
+<td>
+Testo libero
+</td>
+<td>
+Inserire informazioni rilevanti non rappresentabili tramite variabili strutturate, ad esempio:
+<br><br>
+- sedi secondarie;<br>
+- carattere itinerante del festival;<br>
+- cambiamenti organizzativi;<br>
+- informazioni ambigue o non verificabili;<br>
+- eccezioni metodologiche.
+</td>
+<td>
+-
+</td>
+</tr>
+
+
+<tr>
+<td rowspan="3">METADATA</td>
+
+<td>data_source</td>
+<td>Fonte principale utilizzata per la raccolta del dato</td>
+<td>
+URL / riferimento bibliografico / archivio
+</td>
+<td>
+Indicare la fonte utilizzata per verificare le informazioni relative al festival.
+</td>
+<td>
+-
+</td>
+</tr>
+
+
+<tr>
+<td>record_last_updated</td>
+<td>Data dell'ultima revisione del record</td>
+<td>
+YYYY-MM-DD
+</td>
+<td>
+Indicare la data dell'ultimo controllo o aggiornamento significativo del record.
+</td>
+<td>
+-
+</td>
+</tr>
+
+
+<tr>
+<td>dataset_version</td>
+<td>Versione del dataset in cui il record è incluso</td>
+<td>
+Versione semantica (es. v1.0)
+</td>
+<td>
+Utilizzare per tracciare modifiche strutturali o aggiornamenti del dataset.
+</td>
+<td>
+-
+</td>
+</tr>
+
+
+</tbody>
 </table>
 </table>
