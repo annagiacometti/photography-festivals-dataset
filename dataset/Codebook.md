@@ -365,11 +365,8 @@ Bína et al. (2012). ESSnet-Culture: European Statistical System Network on Cult
 </td>
 </tr>
 
-</tbody>
-<tbody>
-
 <tr>
-<td rowspan="4">CONTEXT</td>
+<td rowspan="3">CONTEXT</td>
 
 <td>venue_type</td>
 <td>Tipologia principale degli spazi utilizzati dal festival</td>
