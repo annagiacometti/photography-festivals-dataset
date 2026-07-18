@@ -445,19 +445,6 @@ Inserire informazioni rilevanti non rappresentabili tramite variabili strutturat
 <tr>
 <td rowspan="3">METADATA</td>
 
-<td>data_source</td>
-<td>Fonte principale utilizzata per la raccolta del dato</td>
-<td>
-URL / riferimento bibliografico / archivio
-</td>
-<td>
-Indicare la fonte utilizzata per verificare le informazioni relative al festival.
-</td>
-<td>
--
-</td>
-</tr>
-
 
 <tr>
 <td>record_last_updated</td>
@@ -473,20 +460,6 @@ Indicare la data dell'ultimo controllo o aggiornamento significativo del record.
 </td>
 </tr>
 
-
-<tr>
-<td>dataset_version</td>
-<td>Versione del dataset in cui il record è incluso</td>
-<td>
-Versione semantica (es. v1.0)
-</td>
-<td>
-Utilizzare per tracciare modifiche strutturali o aggiornamenti del dataset.
-</td>
-<td>
--
-</td>
-</tr>
 
 
 </tbody>
