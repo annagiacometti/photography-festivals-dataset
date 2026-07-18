@@ -430,9 +430,8 @@ YOUROPE – The European Festival Association &amp; ILMC (2026). European Festiv
 
 
 <tr>
-<td rowspan="3">METADATA</td>
+<td rowspan="2">METADATA</td>
 
-<tr>
 <td>notes</td>
 <td>Note qualitative e informazioni aggiuntive</td>
 <td>
@@ -452,6 +451,7 @@ Inserire informazioni rilevanti non rappresentabili tramite variabili strutturat
 </td>
 </tr>
 
+
 <tr>
 <td>record_last_updated</td>
 <td>Data dell'ultima revisione del record</td>
@@ -467,7 +467,5 @@ Indicare la data dell'ultimo controllo o aggiornamento significativo del record.
 </tr>
 
 
-
 </tbody>
-</table>
 </table>
