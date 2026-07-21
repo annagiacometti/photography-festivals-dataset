@@ -6,6 +6,16 @@ Sebbene nel presente framework tali metriche siano applicate verticalmente alla 
 
 La tabella seguente descrive nel dettaglio il dizionario dei dati: definisce le classi logiche, i vincoli di tipo delle variabili, i valori ammessi, le regole rigorose di codifica (utilizzate anche per la validazione degli output dell'IA) e le relative fonti istituzionali di riferimento.
 
+## Scopo e Criteri di Inclusione / Dataset Scope & Inclusion Criteria
+
+Il dataset propone una mappatura censuaria e storicizzata dei festival fotografici sul territorio italiano, adottando un approccio mirato a catturare l'evoluzione e il ciclo di vita di queste manifestazioni.
+
+* **Stato di attività:** La raccolta comprende non solo gli eventi attualmente **attivi**, ma anche quelli **inattivi, temporaneamente interrotti o definitivamente chiusi (defunct)**. Questo approccio storicizzato consente di analizzare la longevità, i tassi di sopravvivenza e le dinamiche di evoluzione del settore nel tempo.
+* **Il criterio della Fotografia (Focus Principale):** Per garantire la coerenza metodologica del dataset ed evitare di sconfinare in ambiti generici delle arti visive, sono stati inclusi esclusivamente i festival che hanno la **fotografia come tema centrale e prevalente** della loro programmazione.
+* **Multidisciplinarietà controllata:** Sebbene il dataset rispetti la multidisciplinarietà e la trasversalità tipiche dei festival contemporanei (rilevando la presenza di altre arti visive, attività editoriali, architettura o performance), tali dimensioni vengono tracciate e analizzate solo laddove l'identità del festival sia chiaramente e primariamente legata alla fotografia.
+
+---
+
 <table>
 <thead>
 <tr>
