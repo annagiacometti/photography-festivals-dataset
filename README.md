@@ -1,78 +1,75 @@
-# Photography Festivals Dataset
+# Cultural Data Structuring Framework & AI Pipeline
+### *Caso Studio: Dataset dei Festival Fotografici Italiani / Case Study: Italian Photography Festivals Dataset*
 
-## Overview
+---
 
-This repository contains a research dataset developed to map and analyse Italian photography festivals through the collection, organisation, and structuring of cultural data.
+## IT
 
-The project investigates how fragmented information available through digital sources can be transformed into a structured and comparable dataset, with particular attention to festival identity, organisational characteristics, artistic dimension, territorial context, and digital presence.
+### Panoramica del Progetto
+Questo repository raccoglie i risultati pratici, metodologici e di codice legati a un progetto di tesi in **Digital Humanities** (Università degli Studi di Palermo) dedicato alla **raccolta, strutturazione e normalizzazione dei dati culturali eterogenei disponibili sul web**.
 
-## Research Context
+L'obiettivo principale è trasformare informazioni culturali frammentate e non strutturate (siti web, social media, documentazione sparsa) in **dataset aperti, confrontabili, riutilizzabili e conformi agli standard di metadati europei** (*Eurostat, ESSnet-Culture, Creative Europe, Eurobarometer*).
 
-Photography festivals represent a significant but highly fragmented sector within the cultural and creative industries. Despite their growing cultural and social relevance, systematic and comparable data on these organisations remain limited.
+> **Note:** Il progetto e la relativa ricerca di tesi sono attualmente **in fase di completamento ed evoluzione**. I dati e il codice vengono aggiornati e validati in tempo reale.
 
-This project explores a bottom-up approach to cultural data collection, using publicly available digital sources to build a structured dataset of photography festivals.
+---
 
-## Objectives
+### Struttura della Directory e Output del Progetto
 
-The main objectives of the project are:
+Il progetto si articola in tre output fondamentali:
 
-- to create a structured database of photography festivals;
-- to identify relevant variables for the description of festival organisations;
-- to organise heterogeneous information from digital sources;
-- to support the analysis and comparison of cultural events;
-- to explore the potential of digital sources for cultural mapping.
+1. **`codebook.md` (Framework di Metadati su Base Europea):**
+   * Schema metodologico e dizionario dei dati sviluppato a partire dalle direttive europee per i beni culturali.
+   * Definisce le classi logiche, le regole di codifica, le tipologie di variabili e i vincoli di validazione dei dati.
+2. **`dataset/` (Dataset dei Festival Fotografici Italiani):**
+   * Mappatura censuaria e storicizzata applicata ai festival fotografici italiani attivi, inattivi o conclusi (*defunct*).
+   * Focus primario: festival con la fotografia come tema centrale e prevalente della programmazione.
+   * Accessibile in tempo reale via Google Sheets o mediante esportazione diretta dinamica `.csv` e `.xlsx`.
+3. **`pipeline_ia/` (Prototipo AI per l'Estrazione Dati):**
+   * Notebook in Python (Jupyter / Google Colab) per l'automatizzazione intelligente dell'estrazione e normalizzazione di dati culturali non strutturati dal web.
+   * Sperimentazione di modelli LLM/NLP (es. *Flan T5-Large*) con approcci *Zero-Shot* e *Few-Shot + Sliding Window*, integrati in un workflow *Human-in-the-Loop*.
 
-## Methodology
+---
 
-The dataset was developed through the following steps:
+## EN
 
-1. **Data collection**
-   
-   Information was collected from official festival websites, institutional pages, and publicly available digital sources.
+### Project Overview
+This repository hosts the practical, methodological, and computational outputs of a **Digital Humanities** thesis project (University of Palermo) focused on the **collection, structuring, and standardization of heterogeneous online cultural data**.
 
-2. **Data organisation**
+The core goal is to transform fragmented and unstructured cultural information scattered across the web (websites, social media, documentation) into **open, comparable, and reusable datasets aligned with European metadata standards** (*Eurostat, ESSnet-Culture, Creative Europe, Eurobarometer*).
 
-   Collected information was normalised and organised according to predefined variables.
+> **Note:** The thesis research and dataset population are currently **ongoing and evolving in real-time**. Data and scripts are continuously updated and validated.
 
-3. **Data classification**
+---
 
-   Festival characteristics were classified through a structured codebook designed for cultural data analysis.
+### Repository Structure & Key Outputs
 
-4. **Dataset construction**
+The project delivers three main integrated components:
 
-   The final dataset provides a comparable representation of photography festivals.
+1. **`codebook.md` (EU-Aligned Metadata Framework):**
+   * A methodological schema and data dictionary modeled after European cultural policy frameworks.
+   * Defines logical classes, coding guidelines, variable types, and validation constraints.
+2. **`dataset/` (Italian Photography Festivals Dataset):**
+   * A census-based, historical mapping of active, inactive, and defunct Italian photography festivals.
+   * Strictly targets events where photography serves as the primary theme of programming.
+   * Accessible live via Google Sheets or via direct dynamic `.csv` / `.xlsx` exports.
+3. **`pipeline_ia/` (AI Pipeline for Data Extraction):**
+   * Executable Python Notebooks (Jupyter / Google Colab) demonstrating AI-assisted automated extraction and normalization of unstructured web content.
+   * Features experiments with LLMs (e.g., *Flan T5-Large*) using *Zero-Shot* and *Few-Shot + Sliding Window* strategies within a *Human-in-the-Loop* validation design.
 
-## Dataset Structure
+---
 
-The dataset includes information related to:
+## Link Rapidi e Accesso ai Dati / Quick Links
 
-| Category | Examples of variables |
-|---|---|
-| Festival identity | festival_id, festival_name |
-| Infos | city, region, country, festival_edition_start_year, festival_status |
-| Time dimensions | duration_days, recurrence |
-| Digital presence | website_official, website_secondary, website_active, website_languages, instagram, facebook |
-| Organization | organizer_type, has_public_funding, has_international_orientation |
-| Artistic dimensions | has_mixed_visual_arts, has_book_press, has_architecture, has_ performing_arts, has_audiovisual |
-| Context and accessibility | venue_type, ticket_policy, sustainability_claim, digital_presence_score |
+* 📖 **[Leggi il Codebook / Read the Codebook](./codebook.md)**
+* 🌐 **[Esplora il Dataset Live su Google Sheets / Live Interactive Sheet](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/edit?gid=822136368#gid=822136368)**
+* 📥 **[Scarica il Dataset Live (.CSV) / Direct CSV Export](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=csv&gid=822136368)**
+* 📥 **[Scarica il Dataset Live (.XLSX) / Direct Excel Export](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=xlsx&gid=822136368)**
+* 🛠️ **[Apri il Notebook IA su Google Colab / Open AI Pipeline](./pipeline_ia/)**
 
-## Data Sources
+---
 
-The dataset is based on publicly available information collected from:
-
-- official festival websites;
-- institutional cultural platforms;
-- public reports and research publications.
-
-## Limitations
-
-The dataset reflects the availability and accessibility of online information. Missing data and inconsistencies between sources represent relevant challenges in the collection and standardisation of cultural data.
-
-## Author
-
-Anna Giacometti
-
-Master's thesis project  
-University of Palermo
-Digital Humanities 
-2026
+## Autrice / Author
+**Anna Giacometti**  
+Laureanda in Digital Humanities – Università degli Studi di Palermo[cite: 1]  
+🔗 Repository GitHub: [photography-festivals-dataset](https://github.com/annagiacometti/photography-festivals-dataset.git)
