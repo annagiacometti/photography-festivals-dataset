@@ -71,5 +71,4 @@ The project delivers three main integrated components:
 
 ## Autrice / Author
 **Anna Giacometti**  
-Laureanda in Digital Humanities – Università degli Studi di Palermo[cite: 1]  
-🔗 Repository GitHub: [photography-festivals-dataset](https://github.com/annagiacometti/photography-festivals-dataset.git)
+Laureanda in Digital Humanities – Università degli Studi di Palermo
